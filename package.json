@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm-run-all clean parcel"
+    "start": "npm-run-all clean parcel",
+    "prebuild": "npm cache verify",
+    "build": "npm-run-all clean parcel:build",
+    "parcel": "parcel src/index.html",
+    "parcel:build": "parcel build src/index.html",
+    "clean": "rimraf dist .parcel-cache",
+    "all": "npm run build && npm run start"
   },
   "engines": {
     "node": "14.x"
