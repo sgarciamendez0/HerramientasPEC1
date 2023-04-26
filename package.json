@@ -4,7 +4,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm-run-all clean parcel",
-    "prebuild": "npm cache clean",
+    "prebuild": "npm cache verify",
     "build": "npm-run-all clean parcel:build",
     "parcel": "parcel src/index.html",
     "parcel:build": "parcel build src/index.html",
