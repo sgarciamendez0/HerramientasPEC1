@@ -41,10 +41,6 @@ a:hover {
     border-bottom: 1px dotted var(--contrast-color)
 }
 
-cite {
-    font-style: normal
-}
-
 abbr {
     text-decoration: none
 }
