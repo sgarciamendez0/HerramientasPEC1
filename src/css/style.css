@@ -110,7 +110,7 @@ main {
     text-align: center
 }
 
-@media (min-width: 576px) {
+@media (min-width: 570px) {
     .container {
         max-width: 540px
     }
@@ -120,13 +120,13 @@ main {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
     .container {
         max-width: 720px
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
     .container {
         max-width: 960px
     }
@@ -359,7 +359,7 @@ button:hover {
     background-color: var(--contrast-color)
 }
 
-@media (min-width: 768px) {
+@media (min-width: 760px) {
     form {
         width: 85%;
         margin-left: auto;

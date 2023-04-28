@@ -6,8 +6,8 @@
     "start": "npm-run-all clean parcel",
     "prebuild": "npm cache verify",
     "build": "npm-run-all clean parcel:build",
-    "parcel": "parcel src/index.html",
-    "parcel:build": "parcel build src/index.html",
+    "parcel": "parcel index.html",
+    "parcel:build": "parcel build index.html",
     "clean": "rimraf dist .parcel-cache",
     "all": "npm run build && npm run start"
   },
