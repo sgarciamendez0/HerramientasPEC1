@@ -10,27 +10,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <h1 class="banner"><a href="../index.html">Londres y sus lugares importantes</a></h1>
         <nav class="AlignCenter">
-            <ul>
-              <li><a href="category.html">Categoría</a></li>
-              <li><a href="presentation.html">Presentación</a></li>
-              <li><a href="links.html">Enlaces</a></li>
-            </ul>
+          <ul>
+            <li><a href="category.html">Categoría</a></li>
+            <li><a href="presentation.html">Presentación</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
-
 <main id="main">
   <div class="container">
     <section class="detail">
       <h1>Piccadilly</h1>
-      <img src="img/Piccadilly.jpg" alt="Piccadilly">
+      <img class="roundedImages"  src="img/Piccadilly.jpg" alt="Piccadilly">
       <p>Piccadilly es una calle importante en el corazón de Londres, que conecta la plaza de Piccadilly Circus con la calle de Piccadilly, y se extiende hacia el este hasta la calle Regent. Es famosa por sus tiendas, restaurantes y teatros, y es una de las principales atracciones turísticas de la ciudad.</p>
       <p>La calle de Piccadilly tiene una historia que se remonta al siglo XVII, y fue una de las primeras calles en Londres en tener aceras pavimentadas. En el siglo XIX, se convirtió en una calle importante para el comercio y la moda, con muchas tiendas elegantes y lujosas.</p>
       <p>Hoy en día, Piccadilly es conocida por sus tiendas emblemáticas, como Fortnum & Mason y Burlington Arcade, así como por sus teatros, como el Piccadilly Theatre y el Criterion Theatre. También alberga varios puntos de referencia históricos, como la Iglesia de St. James y la Academia de Artes de Londres.</p>
+      <div class="imagen-recortada">
+        <img class="separador" src="img/separador.png" alt="Separador">
+      </div>
       <ul>
         <li>Atracciones: tiendas, restaurantes, teatros</li>
         <li>Historia: siglo XVII, comercio y moda en el siglo XIX</li>
@@ -40,13 +47,21 @@
     </section>
   
     <section class="related relatedOther">
-      <h2>Otros lugares de interés relacionados</h2>
+      <div class="HorizontalStyle">
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+        <h2>Otros lugares de interés relacionados</h2>
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+      </div>
       <ul>
-        <li><a href="detailOtherBigBen.html">Big Ben</a></li>
-        <li><a href="detailOtherBuckingham.html">Buckingham</a></li>
-        <li><a href="detailOtherCamden.html">Camden</a></li>
-        <li><a href="detailOtherLondonBridge.html">London Bridge</a></li>
-        <li><a href="detailOtherLondonEye.html">London Eye</a></li>
+        <li><a class="elemScale"  href="detailOtherBigBen.html">Big Ben</a></li>
+        <li><a class="elemScale"  href="detailOtherBuckingham.html">Buckingham</a></li>
+        <li><a class="elemScale"  href="detailOtherCamden.html">Camden</a></li>
+        <li><a class="elemScale"  href="detailOtherLondonBridge.html">London Bridge</a></li>
+        <li><a class="elemScale"  href="detailOtherLondonEye.html">London Eye</a></li>
         <li class="actual"><a href="detailOtherPiccadily.html">Piccadily</a></li>
       </ul>
     </section>
@@ -54,12 +69,29 @@
 </main>
 <footer>
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <p>2023 &copy; Sandra Garcia</p>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
+        <ul>
+          <li><a href="category.html">Categoría</a></li>
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
         <ul>
           <li><a href="contact.html">Contáctanos</a></li>
           <li><a href="legal.html">Aviso legal</a></li>
           <li><a href="privacidad.html">Política de privacidad</a></li>
         </ul>
+        
+      </div>
     </div>
 </footer> 
 </body>

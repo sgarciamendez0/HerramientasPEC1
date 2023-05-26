@@ -10,27 +10,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <h1 class="banner"><a href="../index.html">Londres y sus lugares importantes</a></h1>
         <nav class="AlignCenter">
-            <ul>
-              <li><a href="category.html">Categoría</a></li>
-              <li><a href="presentation.html">Presentación</a></li>
-              <li><a href="links.html">Enlaces</a></li>
-            </ul>
+          <ul>
+            <li><a href="category.html">Categoría</a></li>
+            <li><a href="presentation.html">Presentación</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
-
 <main id="main">
   <div class="container">
     <section class="detail">
       <h1>Hyde Park</h1>
-      <img src="img/hydepark.jpg" alt="Hyde Park">
+      <img class="roundedImages"  src="img/hydepark.jpg" alt="Hyde Park">
       <p>El Hyde Park es uno de los parques más grandes y antiguos de Londres, con una extensión de 142 hectáreas. Se encuentra ubicado en el corazón de la ciudad, en la zona de Westminster. Es uno de los ocho Parques Reales de la ciudad y es una de las atracciones turísticas más populares, recibiendo más de 12 millones de visitantes anuales.</p>
       <p>El parque cuenta con numerosas atracciones, como el lago Serpentine, que se utiliza para la práctica de deportes acuáticos y cuenta con una playa artificial en verano, así como con varios jardines, monumentos y estatuas. También es famoso por sus conciertos al aire libre y por ser un lugar de reunión para manifestaciones y protestas.</p>
       <p>Además de sus atracciones, el Hyde Park tiene una rica historia y cultura. Fue creado en 1536 por Enrique VIII como parte de los terrenos de caza de la Corona y ha sido testigo de numerosos eventos históricos, como manifestaciones políticas, conciertos legendarios y la Gran Exhibición de 1851. También ha sido mencionado en la literatura, el cine y la música, y ha sido utilizado como escenario para películas como "V de Vendetta" y "Las Crónicas de Narnia".</p>
+      <div class="imagen-recortada">
+        <img class="separador" src="img/separador.png" alt="Separador">
+      </div>
       <ul>
         <li>Extensión: 142 hectáreas</li>
         <li>Atracciones: lago Serpentine, jardines, monumentos y estatuas</li>
@@ -40,25 +47,50 @@
     </section>
     
     <section class="related relatedPark">
-      <h2>Otros lugares de interés relacionados</h2>
+      <div class="HorizontalStyle">
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+        <h2>Otros lugares de interés relacionados</h2>
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+      </div>
       <ul>
-        <li><a href="detailParkGreenwich.html">Greenwich</a></li>
+        <li><a class="elemScale"  href="detailParkGreenwich.html">Greenwich</a></li>
         <li class="actual"><a href="detailParkHyde.html">Hyde</a></li>
-        <li><a href="detailParkKensington.html">Kensington</a></li>
-        <li><a href="detailParkRegents.html">Regents</a></li>
-        <li><a href="detailParkSantJames.html">Sant James</a></li>
+        <li><a class="elemScale"  href="detailParkKensington.html">Kensington</a></li>
+        <li><a class="elemScale"  href="detailParkRegents.html">Regents</a></li>
+        <li><a class="elemScale"  href="detailParkSantJames.html">Sant James</a></li>
       </ul>
     </section>
   </div>
 </main>
 <footer>
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <p>2023 &copy; Sandra Garcia</p>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
+        <ul>
+          <li><a href="category.html">Categoría</a></li>
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
         <ul>
           <li><a href="contact.html">Contáctanos</a></li>
           <li><a href="legal.html">Aviso legal</a></li>
           <li><a href="privacidad.html">Política de privacidad</a></li>
         </ul>
+        
+      </div>
     </div>
 </footer> 
 </body>

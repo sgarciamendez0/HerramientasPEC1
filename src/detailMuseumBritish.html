@@ -10,27 +10,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <h1 class="banner"><a href="../index.html">Londres y sus lugares importantes</a></h1>
         <nav class="AlignCenter">
-            <ul>
-              <li><a href="category.html">Categoría</a></li>
-              <li><a href="presentation.html">Presentación</a></li>
-              <li><a href="links.html">Enlaces</a></li>
-            </ul>
+          <ul>
+            <li><a href="category.html">Categoría</a></li>
+            <li><a href="presentation.html">Presentación</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
-
 <main id="main">
   <div class="container">
     <section class="detail">
       <h1>British Museum</h1>
-      <img src="img/britishmuseum.jpg" alt="British Museum">
+      <img class="roundedImages" src="img/britishmuseum.jpg" alt="British Museum"><br>
       <p>El British Museum es uno de los museos más grandes y antiguos del mundo, fundado en 1753. Se encuentra ubicado en el barrio de Bloomsbury, en el centro de Londres, y cuenta con una amplia colección de artefactos de diferentes culturas y épocas, incluyendo objetos de la antigua Grecia, Roma, Egipto, Asia y África.</p>
       <p>Entre las piezas más famosas del museo se encuentran los frisos del Partenón de Atenas, la Piedra Rosetta, los tesoros de Tutankamón y la colección de arte oriental de Sir Percival David. Además, el museo tiene una amplia gama de actividades para todas las edades, desde exposiciones temporales hasta talleres y eventos especiales.</p>
       <p>El edificio del British Museum es también una atracción turística en sí mismo, con una impresionante fachada neoclásica y una gran plaza donde se puede disfrutar de actividades al aire libre y de eventos culturales.</p>
+      <div class="imagen-recortada">
+        <img class="separador" src="img/separador.png" alt="Separador">
+      </div>
       <ul>
         <li>Área de exposición: 92.000 m²</li>
         <li>Colección: artefactos de diferentes culturas y épocas</li>
@@ -41,25 +48,51 @@
     </section>
   
     <section class="related relatedMuseum">
-      <h2>Otros lugares de interés relacionados</h2>
+      <div class="HorizontalStyle">
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+        <h2>Otros lugares de interés relacionados</h2>
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+      </div>
+      
       <ul>
         <li class="actual"><a href="detailMuseumBritish.html">British</a></li>
-        <li><a href="detailMuseumTate.html">Tate moderm</a></li>
-        <li><a href="detailMuseumOfLondon.html">Museum of London</a></li>
-        <li><a href="detailMuseumNaturalHistory.html">Natural History</a></li>
-        <li><a href="detailMuseumVictoria.html">Victoria & Albert</a></li>
+        <li><a class="elemScale" href="detailMuseumTate.html">Tate moderm</a></li>
+        <li><a class="elemScale" href="detailMuseumOfLondon.html">Museum of London</a></li>
+        <li><a class="elemScale" href="detailMuseumNaturalHistory.html">Natural History</a></li>
+        <li><a class="elemScale" href="detailMuseumVictoria.html">Victoria & Albert</a></li>
       </ul>
     </section>
   </div>
 </main>
 <footer>
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <p>2023 &copy; Sandra Garcia</p>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
+        <ul>
+          <li><a href="category.html">Categoría</a></li>
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
         <ul>
           <li><a href="contact.html">Contáctanos</a></li>
           <li><a href="legal.html">Aviso legal</a></li>
           <li><a href="privacidad.html">Política de privacidad</a></li>
         </ul>
+        
+      </div>
     </div>
 </footer> 
 </body>

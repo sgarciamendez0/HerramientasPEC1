@@ -10,16 +10,21 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <h1 class="banner"><a href="../index.html">Londres y sus lugares importantes</a></h1>
         <nav class="AlignCenter">
-            <ul>
-              <li><a href="category.html">Categoría</a></li>
-              <li><a href="presentation.html">Presentación</a></li>
-              <li><a href="links.html">Enlaces</a></li>
-            </ul>
+          <ul>
+            <li><a href="category.html">Categoría</a></li>
+            <li><a href="presentation.html">Presentación</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
 
@@ -27,10 +32,13 @@
   <div class="container">
     <section class="detail">
       <h1>Museo de Londres</h1>
-      <img src="img/museumoflondon.jpg" alt="Museo de Londres">
+      <img class="roundedImages"  src="img/museumoflondon.jpg" alt="Museo de Londres">
       <p>El Museo de Londres es un museo de historia de la ciudad situado en el centro de Londres. Fue fundado en 1976 y está ubicado en una zona que abarca desde la época prehistórica hasta la actualidad. El museo cuenta con una amplia colección de objetos históricos, desde restos arqueológicos hasta artefactos de la era victoriana, y ofrece una visión fascinante de la historia de Londres.</p>
       <p>El Museo de Londres se divide en dos secciones principales. La primera, "La historia de Londres", cuenta la historia de la ciudad desde sus orígenes prehistóricos hasta el presente. La segunda, "Las galerías de la guerra y la paz", se centra en la historia de Londres durante las dos guerras mundiales y la Guerra Fría. Entre las atracciones más destacadas del museo se encuentran una recreación de la ciudad medieval de Londres, la galería del fuego, que muestra la historia de los incendios en la ciudad, y una exposición sobre la Revolución Industrial.</p>
       <p>El Museo de Londres es un lugar de gran interés para los visitantes, especialmente aquellos interesados en la historia y la cultura de Londres. Además de las exposiciones permanentes, el museo ofrece una variedad de exposiciones temporales y eventos especiales, como charlas, talleres y visitas guiadas. También cuenta con una tienda de regalos y un café, lo que lo convierte en un destino ideal para pasar un día completo en el centro de Londres.</p>
+      <div class="imagen-recortada">
+        <img class="separador" src="img/separador.png" alt="Separador">
+      </div>
       <ul>
         <li>Colecciones: objetos históricos, restos arqueológicos, artefactos de la era victoriana</li>
         <li>Atracciones: ciudad medieval de Londres, galería del fuego, exposición sobre la Revolución Industrial</li>
@@ -42,25 +50,50 @@
     </section>
   
     <section class="related relatedMuseum">
-      <h2>Otros lugares de interés relacionados</h2>
+      <div class="HorizontalStyle">
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+        <h2>Otros lugares de interés relacionados</h2>
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+      </div>
       <ul>
-        <li><a href="detailMuseumBritish.html">British</a></li>
-        <li><a href="detailMuseumTate.html">Tate moderm</a></li>
+        <li><a class="elemScale"  href="detailMuseumBritish.html">British</a></li>
+        <li><a class="elemScale"  href="detailMuseumTate.html">Tate moderm</a></li>
         <li class="actual"><a href="detailMuseumOfLondon.html">Museum of London</a></li>
-        <li><a href="detailMuseumNaturalHistory.html">Natural History</a></li>
-        <li><a href="detailMuseumVictoria.html">Victoria & Albert</a></li>
+        <li><a class="elemScale"  href="detailMuseumNaturalHistory.html">Natural History</a></li>
+        <li><a class="elemScale"  href="detailMuseumVictoria.html">Victoria & Albert</a></li>
       </ul>
     </section>
   </div>
 </main>
 <footer>
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <p>2023 &copy; Sandra Garcia</p>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
+        <ul>
+          <li><a href="category.html">Categoría</a></li>
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
         <ul>
           <li><a href="contact.html">Contáctanos</a></li>
           <li><a href="legal.html">Aviso legal</a></li>
           <li><a href="privacidad.html">Política de privacidad</a></li>
         </ul>
+        
+      </div>
     </div>
 </footer> 
 </body>

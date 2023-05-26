@@ -10,16 +10,21 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <h1 class="banner"><a href="../index.html">Londres y sus lugares importantes</a></h1>
         <nav class="AlignCenter">
-            <ul>
-              <li><a href="category.html">Categoría</a></li>
-              <li><a href="presentation.html">Presentación</a></li>
-              <li><a href="links.html">Enlaces</a></li>
-            </ul>
+          <ul>
+            <li><a href="category.html">Categoría</a></li>
+            <li><a href="presentation.html">Presentación</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
 
@@ -27,10 +32,13 @@
   <div class="container">
     <section class="detail">
       <h1>Tate Modern</h1>
-      <img src="img/tatemuseum.jpg" alt="Tate Modern">
+      <img class="roundedImages"  src="img/tatemuseum.jpg" alt="Tate Modern">
       <p>Tate Modern es un museo de arte moderno y contemporáneo ubicado en la orilla sur del río Támesis, en Londres. El museo es parte del grupo de museos Tate y es uno de los más visitados de la ciudad, con una colección que incluye obras de artistas como Pablo Picasso, Salvador Dalí y Andy Warhol.</p>
       <p>Tate Modern ocupa un edificio de estilo industrial que fue en su día una central eléctrica. La transformación de la central en museo de arte fue realizada por los arquitectos suizos Herzog & de Meuron, y la estructura cuenta con una espectacular vista panorámica de la ciudad desde la terraza superior.</p>
       <p>La colección del museo está organizada en varias secciones, entre ellas, arte abstracto, arte minimalista, arte pop y arte conceptual. Entre las obras más destacadas se encuentran la pintura en negro de Ad Reinhardt, la serie de serigrafías de Marilyn Monroe de Andy Warhol y la pintura de retratos de Francis Bacon. Además, el museo cuenta con exposiciones temporales de artistas contemporáneos.</p>
+      <div class="imagen-recortada">
+        <img class="separador" src="img/separador.png" alt="Separador">
+      </div>
       <ul>
         <li>Colección: arte moderno y contemporáneo</li>
         <li>Artistas destacados: Pablo Picasso, Salvador Dalí, Andy Warhol</li>
@@ -41,25 +49,50 @@
     </section>
   
     <section class="related relatedMuseum">
-      <h2>Otros lugares de interés relacionados</h2>
+      <div class="HorizontalStyle">
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+        <h2>Otros lugares de interés relacionados</h2>
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+      </div>
       <ul>
-        <li><a href="detailMuseumBritish.html">British</a></li>
+        <li><a class="elemScale"  href="detailMuseumBritish.html">British</a></li>
         <li class="actual"><a href="detailMuseumTate.html">Tate moderm</a></li>
-        <li><a href="detailMuseumOfLondon.html">Museum of London</a></li>
-        <li><a href="detailMuseumNaturalHistory.html">Natural History</a></li>
-        <li><a href="detailMuseumVictoria.html">Victoria & Albert</a></li>
+        <li><a class="elemScale"  href="detailMuseumOfLondon.html">Museum of London</a></li>
+        <li><a class="elemScale"  href="detailMuseumNaturalHistory.html">Natural History</a></li>
+        <li><a class="elemScale"  href="detailMuseumVictoria.html">Victoria & Albert</a></li>
       </ul>
     </section>
   </div>
 </main>
 <footer>
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <p>2023 &copy; Sandra Garcia</p>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
+        <ul>
+          <li><a href="category.html">Categoría</a></li>
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
         <ul>
           <li><a href="contact.html">Contáctanos</a></li>
           <li><a href="legal.html">Aviso legal</a></li>
           <li><a href="privacidad.html">Política de privacidad</a></li>
         </ul>
+        
+      </div>
     </div>
 </footer> 
 </body>

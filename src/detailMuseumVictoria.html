@@ -10,27 +10,34 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header> 
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <h1 class="banner"><a href="../index.html">Londres y sus lugares importantes</a></h1>
         <nav class="AlignCenter">
-            <ul>
-              <li><a href="category.html">Categoría</a></li>
-              <li><a href="presentation.html">Presentación</a></li>
-              <li><a href="links.html">Enlaces</a></li>
-            </ul>
+          <ul>
+            <li><a href="category.html">Categoría</a></li>
+            <li><a href="presentation.html">Presentación</a></li>
+            <li><a href="links.html">Enlaces</a></li>
+          </ul>
         </nav>
+      </div>
     </div>
 </header>
-
 <main id="main">
   <div class="container">
     <section class="detail">
       <h1>Victoria and Albert Museum</h1>
-      <img src="img/victoriamuseum.jpg" alt="Victoria and Albert Museum">
+      <img class="roundedImages"  src="img/victoriamuseum.jpg" alt="Victoria and Albert Museum">
       <p>El Victoria and Albert Museum, también conocido como V&A, es el museo más grande del mundo de arte y diseño, con una colección de más de 2,3 millones de objetos. El museo se encuentra en South Kensington, Londres, y fue fundado en 1852 con el objetivo de educar e inspirar a los visitantes a través de la belleza y la creatividad del arte y el diseño.</p>
       <p>El V&A alberga una impresionante colección de objetos que abarcan más de 5.000 años de historia, desde la antigüedad hasta la actualidad. La colección incluye arte decorativo, moda, joyería, escultura, fotografía, dibujos y grabados, y objetos de diseño contemporáneo. Además, el museo organiza exposiciones temporales y eventos especiales durante todo el año.</p>
       <p>Entre las obras más destacadas del V&A se encuentran la joya egipcia del siglo XVIII, la Galería de las Fiestas, la mayor colección de moda del mundo y la colección más grande de cerámica de Europa. El museo también cuenta con una amplia gama de galerías temáticas, como la Galería de Asia, la Galería de Arte Islámico y la Galería de Escultura y Artes Decorativas.</p>
+      <div class="imagen-recortada">
+        <img class="separador" src="img/separador.png" alt="Separador">
+      </div>
       <ul>
         <li>Extensión: 51.032 m²</li>
         <li>Colección: más de 2,3 millones de objetos</li>
@@ -41,12 +48,20 @@
     </section>
   
     <section class="related relatedMuseum">
-      <h2>Otros lugares de interés relacionados</h2>
+      <div class="HorizontalStyle">
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+        <h2>Otros lugares de interés relacionados</h2>
+        <div class="imagen-decorativa">
+          <img class="floritura" src="img/floritura.png" alt="floritura">
+        </div>
+      </div>
       <ul>
-        <li><a href="detailMuseumBritish.html">British</a></li>
-        <li><a href="detailMuseumTate.html">Tate moderm</a></li>
-        <li><a href="detailMuseumOfLondon.html">Museum of London</a></li>
-        <li><a href="detailMuseumNaturalHistory.html">Natural History</a></li>
+        <li><a class="elemScale"  href="detailMuseumBritish.html">British</a></li>
+        <li><a class="elemScale"  href="detailMuseumTate.html">Tate moderm</a></li>
+        <li><a class="elemScale"  href="detailMuseumOfLondon.html">Museum of London</a></li>
+        <li><a class="elemScale"  href="detailMuseumNaturalHistory.html">Natural History</a></li>
         <li class="actual"><a href="detailMuseumVictoria.html">Victoria & Albert</a></li>
       </ul>
     </section>
@@ -54,12 +69,29 @@
 </main>
 <footer>
     <div class="containerCentrado">
+      <div class="icono">
+        <img src="img/icon.png" alt="Icono">
+      </div>
+      <div>
         <p>2023 &copy; Sandra Garcia</p>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
+        <ul>
+          <li><a href="category.html">Categoría</a></li>
+          <li><a href="presentation.html">Presentación</a></li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+        <svg height="30" width="100%" class="line1">
+          <line fill="none" stroke="#ffffff" stroke-miterlimit="10" x1="0" y1="20" x2="100%" y2="20" stroke-dasharray="5,5" />
+        </svg>
         <ul>
           <li><a href="contact.html">Contáctanos</a></li>
           <li><a href="legal.html">Aviso legal</a></li>
           <li><a href="privacidad.html">Política de privacidad</a></li>
         </ul>
+        
+      </div>
     </div>
 </footer> 
 </body>
