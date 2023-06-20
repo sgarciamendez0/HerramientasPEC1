@@ -572,7 +572,7 @@ main h1,
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    background-image: url(../img/treeicon.png);
+    background-image: url(../img/treeicon.webp?v=1);
     background-size: contain
 }
 
@@ -582,7 +582,7 @@ main h1,
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    background-image: url(../img/museum.png);
+    background-image: url(../img/museum.webp?v=1);
     background-size: contain
 }
 
@@ -592,7 +592,7 @@ main h1,
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    background-image: url(../img/places.png);
+    background-image: url(../img/places.webp?v=1);
     background-size: contain
 }
 
@@ -817,7 +817,7 @@ body {
 }
 
 .backgroundList {
-    background-image: url('../img/tile2.png');
+    background-image: url('../img/tile2.webp?v=1');
     background-repeat: repeat;
 }
 
