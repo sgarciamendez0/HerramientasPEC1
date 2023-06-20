@@ -78,3 +78,4 @@ form.addEventListener('submit', function (e) {
         form.reset(); // Reiniciar formulario
     }
 });
+
