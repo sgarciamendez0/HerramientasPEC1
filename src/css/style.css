@@ -497,7 +497,6 @@ button:hover {
     width: 160px;
     height: 160px;
     background-color: #f7f7f7;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -572,7 +571,7 @@ main h1,
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    background-image: url(../img/treeicon.webp?v=1);
+    background-image: url(../img/treeicon.webp);
     background-size: contain
 }
 
@@ -582,7 +581,7 @@ main h1,
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    background-image: url(../img/museum.webp?v=1);
+    background-image: url(../img/museum.webp);
     background-size: contain
 }
 
@@ -592,7 +591,7 @@ main h1,
     width: 50px;
     height: 50px;
     margin-right: 5px;
-    background-image: url(../img/places.webp?v=1);
+    background-image: url(../img/places.webp);
     background-size: contain
 }
 
@@ -817,7 +816,7 @@ body {
 }
 
 .backgroundList {
-    background-image: url('../img/tile2.webp?v=1');
+    background-image: url('../img/tile2.webp');
     background-repeat: repeat;
 }
 
